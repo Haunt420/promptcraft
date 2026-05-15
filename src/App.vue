@@ -1,7 +1,7 @@
 <template>
   <div>
-<div v-if="tooltip.visible" class="tooltip-pop" :style="{left:tooltip.x+'px',top:tooltip.y+'px',transform:'translateX(-50%) translateY(-100%)'}">
-    <div class="tooltip-tag">{{ tooltip.tag }}</div>
+<div v-if="tooltip.visible" class="tooltip-pop" :style="{left:tooltip.x+'px',top:tooltip.y+'px',transform:'translateX(-50%) translateY(-100%)'}"></div>
+ npm install   <div class="tooltip-tag">{{ tooltip.tag }}</div>
     <div class="tooltip-desc">{{ tooltip.desc }}</div>
   </div>
 
