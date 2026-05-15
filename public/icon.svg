@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a0a"/>
+      <stop offset="100%" style="stop-color:#0d0d1a"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#dc2626"/>
+      <stop offset="50%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#fef3c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
+  <g transform="translate(256,260)">
+    <!-- quill body -->
+    <path d="M-10,-120 C-10,-120 20,-80 15,-20 C10,40 30,80 30,120 C30,130 10,130 10,120 C10,80 -10,40 -15,-20 C-20,-80 -10,-120 -10,-120Z" fill="#dc2626" opacity="0.9"/>
+    <!-- quill feather left -->
+    <path d="M-10,-100 C-40,-80 -70,-40 -80,0 C-50,-20 -20,-40 -10,-60Z" fill="#7c3aed" opacity="0.7"/>
+    <path d="M-10,-70 C-50,-50 -90,-10 -100,30 C-60,10 -30,-10 -10,-30Z" fill="#7c3aed" opacity="0.5"/>
+    <!-- quill feather right -->
+    <path d="M10,-100 C40,-80 70,-40 80,0 C50,-20 20,-40 10,-60Z" fill="#7c3aed" opacity="0.7"/>
+    <path d="M10,-70 C50,-50 90,-10 100,30 C60,10 30,-10 10,-30Z" fill="#7c3aed" opacity="0.5"/>
+    <!-- nib -->
+    <path d="M-5,100 C-5,100 -2,120 0,140 C2,120 5,100 5,100Z" fill="#f59e0b"/>
+    <!-- sparkle -->
+    <circle cx="-50" cy="-110" r="6" fill="#f59e0b" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="-90" r="4" fill="#f59e0b" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
